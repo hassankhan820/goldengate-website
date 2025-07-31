@@ -1,0 +1,32 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "GoldenGate Property Management"
+theme = "tella"
+enableRobotsTXT = true
+[pagination]
+  pagerSize = 10
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About Us"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "services"
+    name = "Services"
+    url = "/services/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "properties"
+    name = "Properties"
+    url = "/properties/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact Us"
+    url = "/contact/"
+    weight = 4
